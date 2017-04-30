@@ -28,4 +28,84 @@ Mark | Output
 
 (4) Write a program that first asks the user *how many* marks they will be entering. By using a for statement that counts from 1 to *how many*, allow the user to enter that quantity of marks. Keep a *total* of the numbers entered. Once all the numbers have been entered, calculate the average and print it out.
 
+(5) Write a program that asks the user to input ten numbers. The program then outputs the total and the average of the numbers (average can be a truncated integer).
 
+```
+Type an integer: 14
+Type an integer: 12
+Type an integer: 35
+Type an integer: 17
+Type an integer: 21
+Type an integer: 12
+Type an integer: 9
+Type an integer: 63
+Type an integer: 22
+Type an integer: 42
+
+Total = 247
+Average = 24
+```
+```
+Type an integer: -13
+Type an integer: 27
+Type an integer: -6
+Type an integer: -81
+Type an integer: 14
+Type an integer: 23
+Type an integer: 16
+Type an integer: 35
+Type an integer: 19
+Type an integer: -2
+
+Total = 32
+Average = 3
+```
+
+(6) Write a program that asks the user to input as many positive integers as they like. When a negative number is entered, this signals "no more data". Output the total of the positive numbers, how many positive numbers there are, and the average of the positive numbers (average can be a truncated integer). Assume that zero is never input. Assume that the user types at least one positive number. Declare all variables to be *int*. Use a *while* loop in this program.
+
+```
+Type and integer (negative to stop): 14
+Type and integer (negative to stop): 12
+Type and integer (negative to stop): 17
+Type and integer (negative to stop): 22
+Type and integer (negative to stop): -6
+
+Total = 65
+There are 4 numbers.
+Average = 16
+```
+```
+Type and integer (negative to stop): 3000
+Type and integer (negative to stop): 2560
+Type and integer (negative to stop): 1482
+Type and integer (negative to stop): 1995
+Type and integer (negative to stop): 1313
+Type and integer (negative to stop): 1716
+Type and integer (negative to stop): -5
+
+Total = 12066
+There are 6 numbers.
+Average = 2011
+```
+
+(7) Write a number-guessing game. You can generate a random integer in the range [1, 100] by using the following statements:
+```
+Random rand = new Random(); // Make sure to import java.util.Random at the top of your class
+int randomInteger = rand.nextInt(100) + 1;
+```
+The output of the game should look similar to the following examples:
+```
+Type in your guess (1 to 100): 50
+Too high! Guess again: 25
+Too low! Guess again: 37
+Too high! Guess again: 30
+Too high! Guess again: 28
+Too low! Guess again: 29
+That's it!
+```
+```
+Type in your guess (1 to 100): 50
+Too low! Guess again: 75
+Too high! Guess again: 68
+That's it!
+```
