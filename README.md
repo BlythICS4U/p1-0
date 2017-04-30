@@ -24,7 +24,7 @@ Mark | Output
 60 to 69 | Your Grade is a C. Keep working hard!
 70 to 79 | Your Grade is a B. Good work!
 80 to 100 | You have earned an A. Congratulations
-> 100 | Invalid Mark
+\> 100 | Invalid Mark
 
 (4) Write a program that first asks the user *how many* marks they will be entering. By using a for statement that counts from 1 to *how many*, allow the user to enter that quantity of marks. Keep a *total* of the numbers entered. Once all the numbers have been entered, calculate the average and print it out.
 
