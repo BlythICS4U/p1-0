@@ -109,3 +109,25 @@ Too low! Guess again: 75
 Too high! Guess again: 68
 That's it!
 ```
+
+(8) Write a program that allows the user to type a positive integer (output an appropriate comment if the number is either negative or zero and let the user try again). Once a positive integer has been typed, compute and output the factorial of that number. A factorial is the product of the whole numbers up to and including the input number.
+
+Examples:
+* Input = 6		Factorial = 1 x 2 x 3 x 4 x 5 x 6 = 720
+* Input = 9		Factorial = 1 x 2 x 3 x 4 x 5 x 6 x 7 x 8 x 9= 362880
+
+(9) Write a program that asks a user to enter a number from 1 to 10.  Depending on the input, output text according to the table below.  Use a switch statement to evaluate the number entered.
+
+Input | Output
+--- | ---
+1 | The loneliest number
+2 | EVEN NUMBER!
+3 | A crowd
+4 | EVEN NUMBER!
+5 | Alive
+6 | EVEN NUMBER!
+7 | Lucky
+8 | EVEN NUMBER!
+9 | Feelin' fine!
+10 | EVEN NUMBER!
+Any other integer | Invalid input
